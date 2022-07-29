@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(192, 192, 192);
+}
+
+.heading{
+    color: rgba(0, 115, 157, 0.434);
+    position: absolute;
+    bottom: 80px;
+    left: -830px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+    letter-spacing: 25px;
+}
+
+p{
+    color: white;
+    position: relative;
+    bottom: 653px;
+    left: 106px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+}
+
+.container-1{
+    height: 673px;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    top: 1.8rem;
+    border-radius: 15px;
+    background-color: aliceblue;;
+    box-shadow: rgb(148, 148, 148) -10px 20px 34px;
+}
+
+.image{
+    border-radius: 15px;
+    width: 100%;
+}
+
+.natgeo{
+    display: block;
+    width: 3%;
+    position: relative;
+    bottom: 620px;
+    left: 75px;
+}
+
+.para-1{
+    color: white;
+    bottom: -45px;
+    left: -680px;
+    font-family: Raleway, sans-serif;
+    font-size: 21px;
+    letter-spacing: -1px;
+}
+
+.para-2{
+    color: white;
+    position: relative;
+    bottom: -175px;
+    left: -1092px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    letter-spacing: 10px;
+}
+
+
+.container-2{
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    display: inline;
+}
+
+.container-3{
+    width: 330px;
+    height: 430px;
+    background-color: rgba(255, 255, 255, 0.683);
+    position: absolute;
+    bottom: 35px;
+    left: 760px;
+    border-radius: 12px;
+}
+
+.sign-up{
+    margin: auto;
+    text-align: center;
+   font-family: 'Raleway', sans-serif; 
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+}
+
+.form{
+    margin: auto;
+    text-align: center;
+    font-family: 'Raleway', sans-serif; 
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    top: 57px;
+}
+
+.label1{
+    margin: 15px;
+}
+.label2{
+    margin: 15px;
+}
+.label3{
+    margin: 19px;
+}
+.label4{
+    margin: 4px;
+}
+.label5{
+    margin: 10px;
+}
+
+.input{
+    border: 0px;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+
+.input:hover{
+    border: 2px solid gray;
+}
+
+.input1{
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.683);
+    padding: 12px 33px;
+    margin-top: 19px;
+    font-size: 30px;
+    border: 0px;
+}
+
+.input1:hover{
+    border: 2px solid black;
+}
+
+
+/* media query */
+@media screen and (max-width: 1000px){
+    .image{
+        display: none;
+    }
+    .container-1{
+        background-color: rgb(192, 192, 192);
+        box-shadow: none;
+    }
+    .container-3{
+        width: 330px;
+        height: 415px;
+        background-color: rgba(255, 255, 255, 0.683);
+        position: absolute;
+        left: 20px;
+        bottom: 100px;
+        border-radius: 12px;
+        box-shadow: rgb(148, 148, 148) -10px 20px 34px;
+    }
+}
